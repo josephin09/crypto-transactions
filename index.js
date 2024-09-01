@@ -7,7 +7,7 @@ const cron = require('node-cron');
 const app = express();
 app.use(express.json());
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
 const MONGODB_URI = process.env.MONGODB_URI;
 
